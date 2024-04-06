@@ -15,3 +15,10 @@
 <li>Navigate to the Shell</li>
 <li>type in the command <code>git clone https://github.com/Crypto-Haruto/Levi.git</code></li>
 <li>It should take a few seconds to install the project</li>
+<li>If you preferrable, you can update the <code>package.json</code> to your liking</li>
+
+<h1><img src="https://i.imgflip.com/69rjso.jpg" width="30px"> | Setting up Enviromental Variables</h1>
+<h2>Once the repository has been cloned</h2>
+<li>Navigate to the Secrets tab</li>
+<li>Create a secret named <code>TOKEN</code> and give it the value of your actual bot token</li>
+<li>Create another secret named <code>ApiKey</code>and give it the value of your OpenAI <a href="https://help.openai.com/en/articles/4936850-where-do-i-find-my-openai-api-key">Api Key</a></li>
