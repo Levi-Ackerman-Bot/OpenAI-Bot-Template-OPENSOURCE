@@ -8,7 +8,7 @@ const client = new Client({
 client.once("ready", () => {
   console.log(`${client.user.tag} is online! W in the chat`);
   client.user.setActivity({
-    name: 'Attack on Titan',
+    name: 'Nathaniel and Haruto',
     type: ActivityType.Watching,
   });
 });
