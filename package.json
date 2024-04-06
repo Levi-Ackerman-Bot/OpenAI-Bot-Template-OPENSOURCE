@@ -1,17 +1,32 @@
 {
-  "name": "nodejs",
-  "version": "1.0.0",
+  "name": "Discord AI Chat Bot",
+  "version": "3.4.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
   },
   "keywords": [],
-  "author": "",
+  "authors": [
+    {
+      "name": "Nathaniel"
+    },
+    {
+      "name": "Haruto"
+    }
+  ],
   "license": "ISC",
   "dependencies": {
     "@types/node": "^18.0.6",
     "discord.js": "^14.14.1",
     "openai": "^4.32.1"
   },
-  "description": ""
+"devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Crypto-Haruto/Levi.git"
+  },
+  "description": "Discord Bot which users can talk to and is powered by OpenAi"
 }
