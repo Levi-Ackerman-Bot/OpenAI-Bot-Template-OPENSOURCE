@@ -22,3 +22,5 @@
 <li>Navigate to the Secrets tab</li>
 <li>Create a secret named <code>TOKEN</code> and give it the value of your actual bot token</li>
 <li>Create another secret named <code>ApiKey</code>and give it the value of your OpenAI <a href="https://help.openai.com/en/articles/4936850-where-do-i-find-my-openai-api-key">Api Key</a></li>
+<li>Create another secret named <code>CHANNELS</code> and set the value to be the <a href="https://turbofuture.com/internet/Discord-Channel-ID">Channel ID</a> of the channel you wish the bot to speak in.</li>
+<li>Create a final secret named <code>IGNORE_PREFIX</code> and this value when put in front of a sentence will tell the bot to ignore the message.</li>

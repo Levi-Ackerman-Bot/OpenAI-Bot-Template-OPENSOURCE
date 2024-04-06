@@ -13,7 +13,7 @@ client.once("ready", () => {
   });
 });
 
-const IGNORE_PREFIX = "!";
+const IGNORE_PREFIX = process.env.IGNORE_PREFIX;
 const CHANNELS = process.env.CHANNELS;
 
 const openai = new OpenAI({
