@@ -1,30 +1,28 @@
-const { REST, Routes, ActionRowBuilder, StringSelectMenuBuilder, StringSelectMenuOptionBuilder } = require('discord.js');
+const { REST, Routes } = require('discord.js');
 
 const commands = [
   {
-    name: 'hello_world',
-    description: 'Yes the bot is one',
+    name: 'support',
+    description: 'Shows the support server!',
   },
   {
-    name: 'Ping!',
-    description: 'Pong',
+    name: 'setup',
+    description: 'Start the setup process for your server!'
   },
 ];
-const clientid = 1203525155649884180;
-const guildid = 1164620142752309468;
 
-const rest = new REST({ version: '10' }).setToken(process.env['TOKEN']);
+const rest = new REST({ version: '10' }).setToken(process.env.TOKEN);
 
 (async () => {
   try {
-    console.log('Registering slash commands....');
+    console.log('Registering slash commands...');
     
     await rest.put(
-      Routes.applicationGuildCommands(clientid, guildid),
+      Routes.applicationCommands(process.env.CLIENT_ID),
       { body: commands }
     );
-    console.log('Slash commands were registered successfully!');
+    console.log('Slash commands were registered successfully');
   } catch (error) {
-    console.error(`There was an error: ${error}`);
+    console.log(`There was an error: ${error}`);
   }
 })();
