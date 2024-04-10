@@ -8,13 +8,13 @@
 <li>Login if needed</li>
 <li>Go to the home page</li>
 <li>Press on the New Repl button</li>
-<li>Select Nodejs from the dropdown</li><br>
+<li>Select <code>import from Github</code><br>
 
 <h1><img src="https://media.tenor.com/NK26j6fCOgEAAAAM/funny-dance.gif" width="30px"> | Clone the repository</h1>
-<h2>Once you have created the repl</h2>
-<li>Navigate to the Shell</li>
-<li>type in the command <code>git clone https://github.com/Crypto-Haruto/Levi.git</code></li>
-<li>It should take a few seconds to install the project</li>
+<h2>Once you have selected <code>import from Github</code></h2>
+<li>Paste in the url of this project > <code>(https://github.com/Levi-Ackerman-Bot/OpenAI-Bot-Template-OPENSOURCE</code></li>
+<li>It will take a few minutes to clone the entire project</li>
+<li>You will be redirected to your repl project</li>
 <li>If you preferrable, you can update the <code>package.json</code> to your liking</li>
 
 <h1><img src="https://i.imgflip.com/69rjso.jpg" width="30px"> | Setting up Enviromental Variables</h1>
