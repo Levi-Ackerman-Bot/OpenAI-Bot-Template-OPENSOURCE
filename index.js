@@ -1,4 +1,4 @@
-const { Client, SlashCommandBuilder, ActivityType, EmbedBuilder, InteractionType} = require('discord.js');
+const { Client, SlashCommandBuilder, ActivityType, EmbedBuilder, InteractionType, Rest, Routes} = require('discord.js');
 const { OpenAI } = require('openai');
 
 const client = new Client({
@@ -89,22 +89,6 @@ client.on('interactionCreate', (interaction) => {
 
   if (interaction.commandName === 'support') {
     interaction.reply('discord.gg/kbj3gCMGAb');
-  }
-});
-
-    const setup = new EmbedBuilder()
-    .setColor('#ff6610')
-    .setAuthor({ name: 'Levi Ackerman', iconURL: 'https://i.postimg.cc/QdHWbdmp/levi.png', url: 'https://discord.gg/kbj3gCMGAb' })
-    .setDescription('Thank you for adding Levi Ackerman AI Discord Bot to your server, now please select the channel that you would like the bot to reply in. We do not recommend using a general channel')
-    .setThumbnail('https://i.postimg.cc/QdHWbdmp/levi.png')
-    .setTimestamp()
-    .setFooter({ text: 'Made by Nathaniel and Haruto', iconURL: 'https://i.postimg.cc/QdHWbdmp/levi.png' });
-
-client.on('interactionCreate', (interaction) => {
-  if (!interaction.isChatInputCommand()) return;
-
-  if (interaction.commandName === 'setup') {
-    interaction.reply({ embeds: [setup] });
   }
 });
 
