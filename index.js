@@ -35,7 +35,7 @@ client.on('messageCreate', async (message) => {
 
   conversation.push({
     role: 'system',
-    content: 'Act and speak like Levi from Attack on Titan'
+    content: 'Act and speak like a human.'
   })
 
   let prevMessages = await message.channel.messages.fetch({ limit: 10});
@@ -53,7 +53,6 @@ client.on('messageCreate', async (message) => {
         name: username,
         content: msg.content,
       });
-
       return;
     }
 
@@ -78,7 +77,7 @@ client.on('messageCreate', async (message) => {
   }
   const embed = new EmbedBuilder()
     .setColor('#ff6610')
-    .setAuthor({ name: 'Levi Ackerman', iconURL: 'https://i.postimg.cc/QdHWbdmp/levi.png', url: 'https://discord.gg/kbj3gCMGAb' })
+    .setAuthor({ name: `${client.user.tag}`, iconURL: 'https://i.postimg.cc/QdHWbdmp/levi.png', url: 'https://discord.gg/kbj3gCMGAb' })
     .setDescription(response.choices[0].message.content);
 
   message.reply({ embeds: [embed] });
