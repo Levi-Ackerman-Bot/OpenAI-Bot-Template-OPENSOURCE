@@ -24,7 +24,7 @@
 <li>Create another secret named <code>ApiKey</code>and give it the value of your OpenAI <a href="https://help.openai.com/en/articles/4936850-where-do-i-find-my-openai-api-key">Api Key</a></li>
 <li>Create another secret named <code>CHANNELS</code> and set the value to be the <a href="https://turbofuture.com/internet/Discord-Channel-ID">Channel ID</a> of the channel you wish the bot to speak in.</li>
 <li>Create a final secret named <code>IGNORE_PREFIX</code> and this value when put in front of a sentence will tell the bot to ignore the message.</li>
-<li>Hit the run button on top of the repl's page, and you shoudl be told that <code>Your Bot's Name</code> is online.</li>
+<li>Hit the run button on top of the repl's page, and you should be told that <code>Your Bot's Name</code> is online.</li>
 
 <h3 align="center"><img src="https://media1.tenor.com/m/kHcmsxlKHEAAAAAC/rock-one-eyebrow-raised-rock-staring.gif" width="30px">At this point your Bot should be online and completely usable, but still lacks permanent hosting.<img src="https://media1.tenor.com/m/kHcmsxlKHEAAAAAC/rock-one-eyebrow-raised-rock-staring.gif" width="30px"></h3>
 
@@ -41,4 +41,4 @@
 <li><b><a href="https://aws.amazon.com/">AWS</a></b>: Amazon Web Services is another cheap cloud platform that is incredibly powerful. It has a super cool <a href="https://aws.amazon.com/pricing/?aws-products-pricing.sort-by=item.additionalFields.productNameLowercase&aws-products-pricing.sort-order=asc&awsf.Free%20Tier%20Type=*all&awsf.tech-category=*all">pay-as-you-go</a> service which is similar to utilities as you pay for what you use. It does require knowledge of Linux and can cost anywhere from 8.50 to 20 based on how many people use your bot.</li>
 <li><b><a href="https://www.digitalocean.com/">Digital Ocean</a></b>: This by far the best one and the one we recommend to you. Also any affiliate link should give you $100 in credit for up to 60 days. This also requires some knowledge of Linux as it is just a VPS, however I find the UI much easier to work with than AWS. Compared to AWS the clear downside is the free credit offer only lasts 60 days instead of 1 year. After that their cheapest plan is $5 a month</li>
 <blockquote><h1 align="center">Thank you for reading till the end!</h1></blockquote>
-<p>If you have any questions feel free to join our support server and ask any of us.</p>
+<p align="center">If you have any questions feel free to join our support server and ask any of us.</p>
