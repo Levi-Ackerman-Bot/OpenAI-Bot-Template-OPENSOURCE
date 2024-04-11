@@ -1,6 +1,7 @@
 <h1 align="center"><img src="https://raw.githubusercontent.com/SudhanPlayz/Discord-MusicBot/v5/assets/logo.gif" width="30px"> Discord AI Chat Bot powered by <a href="https://openai.com/">OpenAI</a> <img src="https://raw.githubusercontent.com/SudhanPlayz/Discord-MusicBot/v5/assets/logo.gif" width="30px"></h1>
 
 <p align="center">Created and Maintained by: <a href="https://discord.com/users/829427219541393428">Nathaniel</a> and <a href="https://discord.com/users/1061411114958729287">Haruto</a></p>
+<p align="center">Join the Support Server <a href="https://discord.gg/KnrQGEbS5k">here</a> if you have any questions.</p>
 
 <h1><img src="https://media.tenor.com/b_FZg7BDYkUAAAAM/ishowspeed-goofy.gif" width="30px"> | Tutorial on how to get started</h1>
 <h2>Create NodeJs <a href="https://replit.com/">Repl</a></h2>
@@ -41,4 +42,4 @@
 <li><b><a href="https://aws.amazon.com/">AWS</a></b>: Amazon Web Services is another cheap cloud platform that is incredibly powerful. It has a super cool <a href="https://aws.amazon.com/pricing/?aws-products-pricing.sort-by=item.additionalFields.productNameLowercase&aws-products-pricing.sort-order=asc&awsf.Free%20Tier%20Type=*all&awsf.tech-category=*all">pay-as-you-go</a> service which is similar to utilities as you pay for what you use. It does require knowledge of Linux and can cost anywhere from 8.50 to 20 based on how many people use your bot.</li>
 <li><b><a href="https://www.digitalocean.com/">Digital Ocean</a></b>: This by far the best one and the one we recommend to you. Also any affiliate link should give you $100 in credit for up to 60 days. This also requires some knowledge of Linux as it is just a VPS, however I find the UI much easier to work with than AWS. Compared to AWS the clear downside is the free credit offer only lasts 60 days instead of 1 year. After that their cheapest plan is $5 a month</li>
 <blockquote><h1 align="center">Thank you for reading till the end!</h1></blockquote>
-<p align="center">If you have any questions feel free to join our support server and ask any of us.</p>
+<p align="center">If you have any questions feel free to join our <a href="https://discord.gg/KnrQGEbS5k">support server</a> and ask any of us.</p>
