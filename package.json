@@ -4,7 +4,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js"
+    "start": "nodemon index.js",
+    "start-commands": "node register-commands.js"
   },
   "keywords": [],
   "authors": [
@@ -19,14 +20,15 @@
   "dependencies": {
     "@types/node": "^18.0.6",
     "discord.js": "^14.14.1",
-    "openai": "^4.32.1"
+    "openai": "^4.32.1",
+    "git": "^0.1.5"
   },
-"devDependencies": {
+  "devDependencies": {
     "nodemon": "^2.0.15"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Crypto-Haruto/Levi.git"
+    "url": "https://github.com/Levi-Ackerman-Bot/OpenAI-Bot-Template-OPENSOURCE.git"
   },
   "description": "Discord Bot which users can talk to and is powered by OpenAi_OF"
 }
