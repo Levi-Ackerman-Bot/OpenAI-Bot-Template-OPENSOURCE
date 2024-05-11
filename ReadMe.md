@@ -1,5 +1,29 @@
 <h1 align="center"><img src="https://raw.githubusercontent.com/SudhanPlayz/Discord-MusicBot/v5/assets/logo.gif" width="30px"> Discord AI Chat Bot powered by <a href="https://openai.com/">OpenAI</a> <img src="https://raw.githubusercontent.com/SudhanPlayz/Discord-MusicBot/v5/assets/logo.gif" width="30px"></h1>
 
+<p align="center">
+    <a href="#" alt="Contributors">
+        <img src="https://img.shields.io/badge/contributors-0-blue" /></a>
+    <a href="#" alt="Backer">
+        <img src="https://img.shields.io/badge/backers-0-green" /></a>
+    <a href="#" alt="Sponsors">
+        <img src="https://img.shields.io/badge/sponsors-0-blue" /></a>
+    <a href="https://github.com/badges/shields/pulse" alt="Activity">
+        <img src="https://img.shields.io/github/commit-activity/m/badges/shields" /></a>
+    <a href="https://circleci.com/gh/badges/shields/tree/master">
+        <img src="https://img.shields.io/circleci/project/github/badges/shields/master" alt="build status"></a>
+    <a href="https://circleci.com/gh/badges/daily-tests">
+        <img src="https://img.shields.io/circleci/project/github/badges/daily-tests?label=service%20tests"
+            alt="service-test status"></a>
+    <a href="https://coveralls.io/github/badges/shields">
+        <img src="https://img.shields.io/coveralls/github/badges/shields"
+            alt="coverage"></a>
+    <a href="https://discord.gg/KnrQGEbS5k">
+        <img src="https://img.shields.io/discord/308323056592486420?logo=discord"
+            alt="chat on Discord"></a>
+</p>
+
+[![Stand With Ukraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner2-direct.svg)](https://vshymanskyy.github.io/StandWithUkraine/)
+
 <p align="center">Created and Maintained by: <a href="https://discord.com/users/829427219541393428">Nathaniel</a> and <a href="https://discord.com/users/1061411114958729287">Haruto</a></p>
 <p align="center">Join the Support Server <a href="https://discord.gg/KnrQGEbS5k">here</a> if you have any questions.</p>
 
