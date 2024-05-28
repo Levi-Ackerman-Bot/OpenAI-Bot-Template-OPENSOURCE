@@ -22,7 +22,10 @@
             alt="chat on Discord"></a>
 </p>
 
-[![Stand With Ukraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner2-direct.svg)](https://vshymanskyy.github.io/StandWithUkraine/)
+<p align="center">
+<img src="https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner2-direct.svg">
+<img src="https://raw.githubusercontent.com/Safouene1/support-palestine-banner/master/banner-support.svg">
+</p>
 
 <p align="center">Created and Maintained by: <a href="https://discord.com/users/829427219541393428">Nathaniel</a> and <a href="https://discord.com/users/1061411114958729287">Haruto</a></p>
 <p align="center">Join the Support Server <a href="https://discord.gg/KnrQGEbS5k">here</a> if you have any questions.</p>
